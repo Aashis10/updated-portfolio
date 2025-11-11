@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "sample-project",
+    "title": "Sample Project",
+    "summary": "A placeholder project demonstrating layout and metadata.",
+    "problem": "Showcase template structure.",
+    "solution": "Built with Next.js App Router, Tailwind, JSON-LD, and SEO best practices.",
+    "impact": "Great starting point for your case studies.",
+    "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+    "links": {
+      "demo": "https://example.com",
+      "repo": "https://github.com/Aashis10"
+    },
+    "images": ["/og-image.svg"],
+    "tags": ["template", "frontend"]
+  }
+]

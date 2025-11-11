@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+html, body {
+  @apply bg-slate-950 text-slate-100;
+}
+
+a {
+  @apply text-accent hover:underline;
+}
+
+.container {
+  @apply max-w-5xl mx-auto px-4;
+}
