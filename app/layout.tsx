@@ -1,4 +1,4 @@
-import "./globals.css";
+import "../styles/globals.css";
 import type { Metadata } from "next";
 import { baseMetadata } from "@/lib/seo";
 import { personJsonLd } from "@/lib/schema";
@@ -18,11 +18,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="antialiased">
-        <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:m-4 focus:p-2 focus:bg-slate-800">
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:absolute focus:m-4 focus:p-2 focus:bg-slate-800"
+        >
           Skip to content
         </a>
         <NavBar />
-        <main id="main" className="container py-10">{children}</main>
+        <main id="main" className="container py-10">
+          {children}
+        </main>
         <Footer name={site.name} />
       </body>
     </html>
